@@ -11,9 +11,9 @@ ResultView.prototype.bindEvents = function () {
   });
 };
 
-ResultView.prototype.displayResult = function (result) {
+ResultView.prototype.displayResult = function (event) {
   const resultElement = document.querySelector('#result');
-  resultElement.textContent = `${result}`;
+  resultElement.textContent = `${event}`;
 
 };
 
